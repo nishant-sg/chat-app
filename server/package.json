@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dot": "^1.1.3",
+    "dotenv": "^10.0.0",
+    "env": "^0.0.2",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "react-router-dom": "^6.2.1",
+    "socket.io": "^4.4.1"
+  }
+}
